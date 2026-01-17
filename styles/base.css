@@ -1,0 +1,32 @@
+:root {
+    --primary-color: #2A57EB;
+    --secondary-color: #2E2E2E;
+    --header-font: 'Poppins', sans-serif;
+    --body-font: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.span-header {
+    font-family: var(--header-font);
+    font-size: 24px;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000;
+    list-style: none;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
