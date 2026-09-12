@@ -90,7 +90,7 @@ h1 {
     line-height: 1.5;
 }
 
-.card h1 {
+.card h2, .card h4 {
     font-family: var(--header-font);
     font-size: 24px;
     color: white;
@@ -109,7 +109,7 @@ h1 {
     line-height: 1.5;
 }
 
-h2 {
+h3{
     font-family: var(--header-font);
     font-size: 20px;
     color: var(--secondary-color);
