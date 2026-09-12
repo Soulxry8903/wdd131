@@ -11,11 +11,22 @@
     box-sizing: border-box;
 }
 
+#course-title {
+    display: block;
+    text-align: center;
+    font-family: var(--header-font);
+    font-size: 24px;
+    text-transform: uppercase;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px;
+}
+
 .span-header {
+    display: block;
     font-family: var(--header-font);
     font-size: 24px;
     background-color: var(--primary-color);
-    text-align: center;
 }
 
 nav ul {
@@ -23,10 +34,153 @@ nav ul {
     justify-content: space-evenly;
     background-color: #000;
     list-style: none;
-    padding: 20px;
+    padding: 10px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
 }
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+main {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: var(--header-font);
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+}
+.main-content {
+    display: grid;
+    grid-template-columns: 3fr 30%
+}
+.first-section {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    display: grid;
+    width: 90%;
+    margin: 0px 0px 0px 40px;
+}
+
+.about-me {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    align-items: center;
+    padding: 0px 30px 5px 15px;
+}
+
+.about-me img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+.first-section p {
+    font-family: var(--body-font);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.card h1 {
+    font-family: var(--header-font);
+    font-size: 24px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px 0px 10px 0px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-me p {
+    font-family: var(--body-font);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: var(--header-font);
+    font-size: 20px;
+    color: var(--secondary-color);
+    width: 60%;
+    margin: 10px auto;
+    text-align: center;
+    border-bottom: 1px solid #0f0c0c;
+    padding-bottom: 5px
+}
+
+.country{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+    align-items: center;
+    padding:5px 30px 5px 15px;
+}
+
+figure{
+    padding: 20px 25px 10px 0px
+}
+
+
+.country img {
+    width: 100%
+}
+
+figcaption {
+    font-family: georgia, serif;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+.country p {
+    font-family: var(--body-font);
+    font-size: 16px;
+    text-align: justify;
+}
+
+.second-section {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    display: grid;
+    width: 90%;
+    margin: 0px 0px 0px x;
+}
+
+ul {
+    padding: 20%;
+}
+
+li {
+    font-family: var(--body-font);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+.footer p {
+    text-decoration: none;
+    font-family: var(--body-font);
+}
+
+
