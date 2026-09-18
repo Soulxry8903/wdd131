@@ -1,0 +1,73 @@
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+header {
+    display: block;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+    background-color: #5d8aa8;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    color: white;
+    margin-left: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+  list-style: none;
+  padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+    margin-top: 20px;
+    padding: 40px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.temple-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*padding: 20px;
+    margin: 0px 20px 30px 20px;*//
+
+}
+
+
+figure {
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+}
+
+figcaption {
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #5d8aa8;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
