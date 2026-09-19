@@ -1,0 +1,81 @@
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+    background-color: #093772;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    color: white;
+    margin-left: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+  list-style: none;
+  padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px
+}
+
+nav a:hover {
+    background-color: #08457e;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+    margin-top: 20px;
+    padding: 40px;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.temple-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    place-items: center;
+    margin-bottom: 40px;
+}
+
+
+
+figure {
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+    margin: 0
+}
+
+figcaption {
+    margin-top: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #093772;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
