@@ -8,3 +8,7 @@ hambmenu.addEventListener('click',()=>{
     heading.classList.toggle('show');
 
 });
+document.getElementById("currentyear").textContent = new Date().getFullYear();
+
+document.getElementById("lastModified").textContent =
+    `Last Modification: ${document.lastModified}`;
