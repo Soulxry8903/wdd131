@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Ashley Encarnación"
+  <meta name="description" content="A quick look at Madagascar, its people, places, and weather.">
+  <title>Madagascar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/place.css">
+  <link rel="stylesheet" href="./styles/place-large.css">
+  <script src="scripts/place.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><h1>Madagascar</h1></header>
+  <main>
+    <section class="hero" aria-label="Madagascar wildlife">
+      <picture class="hero-picture">
+        <source media="(min-width: 48rem)" srcset="https://images.unsplash.com/photo-1580855733764-084b90737008?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dformat&amp;fit=crop&amp;w=2000&amp;h=1000&amp;q=82&amp;fm=webp">
+        <img src="https://images.unsplash.com/photo-1551336631-7de698b111f8?auto=format&amp;fit=crop&amp;crop=faces&amp;w=900&amp;h=1300&amp;q=82&amp;fm=webp" alt="Ring-tailed lemur perched on a tree stump in Madagascar" fetchpriority="high">
+      </picture>
+      <section class="info-card data-card" aria-labelledby="data-title">
+        <h2 id="data-title">Data</h2>
+        <dl>
+          <div><dt>Area:</dt><dd>587,041 sq km</dd></div>
+          <div><dt>Population:</dt><dd>27,691,018</dd></div>
+          <div><dt>Capital:</dt><dd>Antananarivo</dd></div>
+          <div><dt>Languages:</dt><dd>Malagasy, French</dd></div>
+          <div><dt>Currency:</dt><dd>Malagasy Ariary</dd></div>
+          <div><dt>Time Zone:</dt><dd>UTC+3</dd></div>
+          <div><dt>Calling Code:</dt><dd>+261</dd></div>
+          <div><dt>Internet TLD:</dt><dd>.mg</dd></div>
+        </dl>
+      </section>
+      <section class="info-card weather-card" aria-labelledby="weather-title">
+        <h2 id="weather-title">Weather</h2>
+        <img class="weather-icon" src="./images/weather.svg" alt="Partly cloudy with light rain">
+        <dl>
+          <div><dt>Temperature:</dt><dd><span id="temperature">10</span> °C</dd></div>
+          <div><dt>Conditions:</dt><dd>Partly Cloudy</dd></div>
+          <div><dt>Wind:</dt><dd><span id="wind-speed">5</span> km/h</dd></div>
+          <div><dt>Wind Chill:</dt><dd id="wind-chill">—</dd></div>
+        </dl>
+      </section>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>© <span id="current-year"></span> <span class="flower">✿</span> Rubia Magdalena Francesco <span class="flower">✿</span> Madagascar</p>
+    <p>Last Modification: <time id="last-modified"></time></p>
+  </footer>
+
+</body>
+</html>

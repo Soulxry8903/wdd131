@@ -1,0 +1,82 @@
+@media (min-width: 48rem) {
+  body {
+    background: #edf3ed;
+}
+.site-header {
+    min-height: 6rem;
+    border-bottom-width: .65rem;
+}
+.hero {
+    position: relative;
+    height: clamp(28rem, 47vw, 39rem);
+}
+.hero-picture {
+    height: 100%;
+    border-bottom: 0;
+}
+.hero-picture img {
+    object-position: center 48%;
+}
+.info-card {
+    position: absolute;
+    width: 15.5rem;
+    padding: .85rem 1rem 1rem;
+    background: var(--shade);
+    color: white;
+    text-shadow: 0 1px 2px #000;
+    box-shadow: 0 .4rem 1.2rem #0003;
+    backdrop-filter: blur(5px);
+}
+.info-card h2 {
+    margin: 0 0 .65rem;
+    padding: .55rem .7rem;
+    background: rgba(8, 120, 73, .93);
+    color: white; font-size: 1.28rem;
+    text-align: left;
+    text-shadow: none;
+}
+.info-card dl {
+    font-size: .75rem;
+    line-height: 1.85;
+}
+.info-card dl div {
+    gap: .3rem;
+}
+.data-card {
+    top: 2rem;
+    left: 2rem;
+    border: 0;
+}
+.weather-card {
+    right: 2rem;
+    bottom: 2rem;
+    padding-top: .85rem;
+}
+.weather-card h2::after {
+    content: "⛅";
+    float: right;
+    font-size: 1.15rem;
+}
+.weather-icon {
+    display: none;
+}
+.site-footer {
+    min-height: 5.7rem;
+    padding: 1.15rem .8rem;
+    font-size: .82rem;
+}
+}
+
+@media (min-width: 70rem) {
+.hero {
+    height: 38rem;
+}
+.data-card {
+    top: 2.5rem;
+    left: 2.5rem;
+}
+.weather-card {
+    right: 2.5rem;
+    bottom: 2.5rem;
+}
+}
