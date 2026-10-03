@@ -53,21 +53,21 @@ const temples = [
     location: "Salt Lake City, Utah, United States",
     dedicated: "1893, April, 6",
     area: 253015,
-    imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/salt-lake-temple/salt-lake-temple-44538.jpg"
+    imageUrl: "https://www.churchofjesuschrist.org/imgs/a450d6cb7c375ec278fca7dff16a5cf5c2ab3317/full/%2C500/0/default"
   },
   {
     templeName: "Santo Domingo Dominican Republic",
     location: "Santo Domingo, Dominican Republic",
     dedicated: "2000, September, 17",
     area: 67000,
-    imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/santo-domingo-dominican-republic-temple/santo-domingo-dominican-republic-temple-3932.jpg"
+    imageUrl: "./images/santo-domingo-temple.jpg"
   },
   {
     templeName: "Rome Italy",
     location: "Rome, Italy",
     dedicated: "2019, March, 10",
     area: 41010,
-    imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/rome-italy-temple/rome-italy-temple-34619.jpg"
+    imageUrl: "https://www.churchofjesuschrist.org/imgs/4e47429c6ce95afa09578b5a4f791b4a09160a6d/full/800%2C/0/default"
   }
 ];
 
