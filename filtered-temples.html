@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temple Album</title>
+  <meta name="author" content="Ashley Encarnación">
+  <meta name="description" content="Explore temples of The Church of Jesus Christ of Latter-day Saints.">
+  <link rel="stylesheet" href="./styles/filtered-temples.css">
+  <script src="./scripts/filtered-temples.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h2>Temple Album</h2>
+    <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="temple-nav">☰</button>
+    <nav id="temple-nav" aria-label="Temple filters">
+      <ul>
+        <li><a href="#" data-filter="home" aria-current="page">Home</a></li>
+        <li><a href="#" data-filter="old">Old</a></li>
+        <li><a href="#" data-filter="new">New</a></li>
+        <li><a href="#" data-filter="large">Large</a></li>
+        <li><a href="#" data-filter="small">Small</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1 id="gallery-title">Home</h1>
+    <section class="temple-gallery" aria-label="Temple gallery"></section>
+  </main>
+  <footer>
+    <p>&copy;<span id="currentyear"></span> 💃🏾 Ashley N. Encarnación Valdez 💃🏾 República Dominicana</p>
+    <p><span id="lastModified"></span></p>
+  </footer>
+</body>
+</html>
