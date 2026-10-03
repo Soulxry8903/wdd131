@@ -53,7 +53,7 @@ const temples = [
     location: "Salt Lake City, Utah, United States",
     dedicated: "1893, April, 6",
     area: 253015,
-    imageUrl: "https://www.churchofjesuschrist.org/imgs/a450d6cb7c375ec278fca7dff16a5cf5c2ab3317/full/%2C500/0/default"
+    imageUrl: "https://www.abc4.com/wp-content/uploads/sites/4/2025/02/9a2e40c14e7e67b6fa107f581f91ccb40ba0b119.jpeg?strip=1"
   },
   {
     templeName: "Santo Domingo Dominican Republic",
