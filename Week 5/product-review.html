@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product Review</title>
+  <link rel="stylesheet" href="file:///C:/Users/ASHLEY%20ENCARNACION/Downloads/product-review.css">
+</head>
+<body>
+  <header><h1>Product Review</h1></header>
+  <form id="review-form">
+    <div class="field">
+      <label for="product">Product Name</label>
+      <select id="product" name="product" required>
+        <option value="" selected disabled>Choose a Product ...</option>
+        <option>Smart Speaker</option>
+        <option>Wireless Headphones</option>
+        <option>Fitness Tracker</option>
+        <option>Portable Projector</option>
+      </select>
+    </div>
+
+    <fieldset>
+      <legend>Overall Rating</legend>
+      <div class="ratings">
+        <label class="rating"><span class="stars">☆</span><input type="radio" name="rating" value="1" aria-label="1 star" required></label>
+        <label class="rating"><span class="stars">☆☆</span><input type="radio" name="rating" value="2" aria-label="2 stars"></label>
+        <label class="rating"><span class="stars">☆☆☆</span><input type="radio" name="rating" value="3" aria-label="3 stars"></label>
+        <label class="rating"><span class="stars">☆☆☆☆</span><input type="radio" name="rating" value="4" aria-label="4 stars"></label>
+        <label class="rating"><span class="stars">☆☆☆☆☆</span><input type="radio" name="rating" value="5" aria-label="5 stars"></label>
+      </div>
+    </fieldset>
+
+    <div class="field">
+      <label for="installed">Date of Installation</label>
+      <input id="installed" name="installed" type="date" required>
+    </div>
+
+    <fieldset class="features">
+      <legend>Which features did you find useful in the product?<br><em>(Check all that apply)</em></legend>
+      <label class="check"><input type="checkbox" name="features" value="Durability">Durability</label>
+      <label class="check"><input type="checkbox" name="features" value="Ease of Use">Ease of Use</label>
+      <label class="check"><input type="checkbox" name="features" value="Performance">Performance</label>
+      <label class="check"><input type="checkbox" name="features" value="Design">Design</label>
+    </fieldset>
+
+    <div class="field">
+      <label for="review">Written Review <span class="optional">(Optional)</span></label>
+      <textarea id="review" name="review"></textarea>
+    </div>
+    <div class="field">
+      <label for="name">Your Name <span class="optional">(Optional)</span></label>
+      <input id="name" name="name" type="text" autocomplete="name">
+    </div>
+    <button class="submit" type="submit">Post Review</button>
+  </form>
+  <footer>
+    <p>©2024 🌺 Rubia Magdalena Francesco 🌺</p>
+    <p>Madagascar</p>
+    <p>Last Modification: <time id="modified"></time></p>
+  </footer>
+  <script src="file:///C:/Users/ASHLEY%20ENCARNACION/Downloads/product-review.js"></script>
+</body>
+</html>
